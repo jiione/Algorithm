@@ -1,4 +1,4 @@
-public class Main {
+public class Algorithm {
     public static void main(String[] args) {
         int[] count=new int[10001];
         int num;
