@@ -104,4 +104,5 @@ int main() {
     {
         cout<<v[i]<<endl;
     }
+    delete [] map;
 }
