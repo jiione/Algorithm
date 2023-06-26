@@ -4,11 +4,11 @@
 
 ### 성능 요약
 
-메모리: 2024 KB, 시간: 272 ms
+메모리: 129796 KB, 시간: 1644 ms
 
 ### 분류
 
-백트래킹(backtracking)
+백트래킹
 
 ### 문제 설명
 
@@ -25,11 +25,11 @@
 
 <p>위의 예의 경우, 첫째 줄에는 1을 제외한 나머지 2부터 9까지의 숫자들이 이미 나타나 있으므로 첫째 줄 빈칸에는 1이 들어가야 한다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 239px; height: 32px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/38e505c6-0452-4a56-b01c-760c85c6909b/-/preview/" style="width: 239px; height: 32px;"></p>
 
 <p>또한 위쪽 가운데 위치한 3x3 정사각형의 경우에는 3을 제외한 나머지 숫자들이 이미 쓰여있으므로 가운데 빈 칸에는 3이 들어가야 한다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 86px; height: 82px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/89873d9d-56ae-44f7-adb2-bd5d7e243016/-/preview/" style="width: 86px; height: 82px;"></p>
 
 <p>이와 같이 빈 칸을 차례로 채워 가면 다음과 같은 최종 결과를 얻을 수 있다.</p>
 
