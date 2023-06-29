@@ -4,17 +4,17 @@
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 31256 KB, 시간: 44 ms
 
 ### 분류
 
-다이나믹 프로그래밍(dp)
+다이나믹 프로그래밍
 
 ### 문제 설명
 
 <p>계단 오르기 게임은 계단 아래 시작점부터 계단 꼭대기에 위치한 도착점까지 가는 게임이다. <그림 1>과 같이 각각의 계단에는 일정한 점수가 쓰여 있는데 계단을 밟으면 그 계단에 쓰여 있는 점수를 얻게 된다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/7177ea45-aa8d-4724-b256-7b84832c9b97/-/preview/" style="width: 300px; height: 160px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="width: 300px; height: 160px;"></p>
 
 <p style="text-align: center;"><그림 1></p>
 
