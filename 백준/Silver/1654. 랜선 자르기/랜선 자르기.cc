@@ -33,6 +33,8 @@ void BinarySearch(long long start, long long end){
 }
 
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     cin>>N>>M;
 
     v.resize(N);
