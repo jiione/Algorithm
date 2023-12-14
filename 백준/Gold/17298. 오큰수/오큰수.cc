@@ -1,32 +1,31 @@
 #include<iostream>
-#include<algorithm>
 #include<stack>
+#include<vector>
+
 using namespace std;
 
-int N;
-stack<int> s;
-int ans[1000001];
-int seq[1000001];
+int main(){
+    int N;
+    cin>>N;
+    vector<int> numbers(N+1,0);
+    vector<int> result(N+1,0);
 
-int main()
-{
-	cin >> N;
-	// 수열 입력받기
-	for (int i = 0; i < N; i++)
-		cin >> seq[i];
-	
-	for (int i = N - 1; i >= 0; i--)
-	{
-		while (!s.empty() && s.top() <= seq[i])
-			s.pop();
+    stack<int> s;
 
-		if (s.empty()) ans[i] = -1;
-		else ans[i] = s.top();
+    for(int i=1; i<=N;++i){
+        cin>>numbers[i];
+    }
 
-		s.push(seq[i]);
-	}
-	
-	// 정답 출력
-	for (int i = 0; i < N; i++)
-		cout << ans[i] << " ";
+    for(int i=N; i>0;--i ){
+        int n = numbers[i];
+        while(!s.empty() && s.top()<=n) s.pop();
+        if(s.empty()) result[i]=-1;
+        else result[i]=s.top();
+
+        s.push(n);
+    }
+
+    for(int i=1; i<=N;++i){
+        cout<<result[i]<<" ";
+    }
 }
